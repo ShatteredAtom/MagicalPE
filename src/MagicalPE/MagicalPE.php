@@ -91,7 +91,7 @@ class MagicalPE extends PluginBase implements Listener{
 		return false;
 	}
 
-	/*
+	
 	// 左，右などの移動コマンド入力で魔法を唱える？案
 	public function PlayerMove(event\player\PlayerMoveEvent $event){
 		$player=$event->getPlayer();
@@ -104,7 +104,7 @@ class MagicalPE extends PluginBase implements Listener{
 		$player->getDirectionVector();
 		
 		return;
-	}*/
+	}
 }
 
 class MagicData{
